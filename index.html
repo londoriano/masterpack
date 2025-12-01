@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Pack de Finanças Pessoais e Investimentos</title>
+    <!-- Carregando o Tailwind CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Pequeno ajuste para a animação do contador de usuários */
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .7; }
+        }
+        .animate-pulse-live {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans leading-relaxed">
+
+    <!-- BARRA DE ESCASSEZ E PROVA SOCIAL (Dinâmico) -->
+    <div class="sticky top-0 z-50 bg-red-600 text-white p-3 shadow-md text-center">
+        <div class="container mx-auto flex flex-col md:flex-row justify-center items-center gap-2 md:gap-6">
+            <span class="font-semibold text-lg">🔥 Rápido! Restam apenas <span id="pacotes-restantes" class="bg-white text-red-600 rounded px-2 py-0.5"></span> Pacotes neste valor!</span>
+            <span class="hidden md:inline">|</span>
+            <span class="font-semibold text-lg animate-pulse-live">👥 <span id="usuarios-online" class="bg-white text-red-600 rounded px-2 py-0.5"></span> usuários</span> estão vendo esta página agora.
+        </div>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="max-w-4xl mx-auto p-4 md:p-8">
+
+        <!-- SEÇÃO HERO (Título e Subtítulo) -->
+        <header class="text-center my-10 md:my-16">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight">
+                Finalmente: A Biblioteca Completa para Você Sair das Dívidas, Controlar seu Dinheiro e Construir um Patrimônio Sólido
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mt-6">
+                São 24 e-books que vão te levar do absoluto zero ao investidor confiante, cobrindo tudo o que você <b>realmente</b> precisa saber sobre Dinheiro, Mentalidade e Investimentos.
+            </p>
+        </header>
+
+        <!-- SEÇÃO DE DOR / CONEXÃO -->
+        <section class="bg-white rounded-xl shadow-lg p-6 md:p-10 my-10 border border-gray-200">
+            <h2 class="text-3xl font-bold text-red-700 mb-6 text-center">
+                Você se sente perdido quando o assunto é dinheiro?
+            </h2>
+            <p class="text-lg text-gray-700 mb-6">
+                Se você se identifica com qualquer uma das situações abaixo, esta é a página mais importante que você vai ler hoje:
+            </p>
+            <ul class="space-y-4 text-lg text-gray-700">
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-3 text-2xl">❌</span>
+                    <span>Sente que <b>trabalha o mês todo apenas para "pagar contas"</b> e nunca vê o dinheiro sobrar?</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-3 text-2xl">❌</span>
+                    <span>Fica confuso com o "economês" dos noticiários e <b>não sabe em quem confiar</b> para cuidar do seu futuro?</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-3 text-2xl">❌</span>
+                    <span>Tem <b>medo de começar a investir</b> porque acha arriscado ou complicado demais (e acaba deixando o dinheiro parado na poupança)?</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-3 text-2xl">❌</span>
+                    <span>Sente que está <b>"escravo do cartão de crédito"</b> e não sabe como quebrar esse ciclo vicioso?</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-3 text-2xl">❌</span>
+                    <span>Vê oportunidades como Bitcoin ou a Bolsa de Valores passando, mas <b>se sente travado por não saber</b> por onde começar?</span>
+                </li>
+            </ul>
+            <p class="text-lg text-gray-700 mt-6">
+                Se você respondeu "sim", saiba que a culpa não é sua. O sistema financeiro foi desenhado para ser complicado. Mas a verdade é que <b>assumir o controle do seu dinheiro é mais simples do que parece</b> – você só precisa do mapa correto.
+            </p>
+        </section>
+
+        <!-- SEÇÃO DA SOLUÇÃO -->
+        <section class="text-center my-16">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6">
+                Imagine ter o Conhecimento de Especialistas Reunido em um Único Lugar
+            </h2>
+            <p class="text-xl text-gray-700 mb-4">
+                E se, em vez de passar anos pesquisando, você tivesse acesso imediato a uma coleção completa de guias práticos?
+            </p>
+            <p class="text-xl text-gray-700 mb-8">
+                Imagine entender de uma vez por todas <b>"O que Ninguém te Conta Sobre Dinheiro"</b>. Imagine construir sua própria <b>"Máquina de Riqueza"</b>. Imagine desenvolver uma <b>"Mente Blindada"</b>.
+            </p>
+            <div class="bg-gray-200 rounded-xl p-6 shadow-inner">
+                <h3 class="text-3xl md:text-4xl font-extrabold text-gray-800">
+                    🚀 Master Pack de Finanças Pessoais e Investimentos
+                </h3>
+                <p class="text-xl text-gray-700 mt-2">
+                    Uma coleção de <b>24 E-books (PDF/ePub)</b> diretos ao ponto, criados para transformar sua relação com o dinheiro.
+                </p>
+            </div>
+        </section>
+
+        <!-- SEÇÃO LISTA DE E-BOOKS -->
+        <section class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-1">
+                O Arsenal de Conhecimento que Você Vai Receber:
+            </h2>
+            <h2 class="text-1xl text-green-800 font-bold text-center mb-10">
+                Clique nas capas para visualizar os Sumários
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- E-book 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/O que Ninguém te Conta Sobre Dinheiro e Investimentos.jpg"  loading="lazy" alt="Capa E-book">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">O que Ninguém te Conta Sobre Dinheiro e Investimentos</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Descubra as verdades que o sistema financeiro esconde e aprenda a parar de ficar pobre devagar.
+
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/A Máquina de Riqueza.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">A Máquina de Riqueza: Estratégias Comprovadas para Construir Patrimônio</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Transforme seu salário em uma máquina automática de construir riqueza.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Mente Blindada, Carteira Cheia.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Mente Blindada, Carteira Cheia: O Guia Prático para Vencer a Psicologia do Impulso e Assumir o Controle do Seu Dinheiro</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Recupere o controle da sua mente e do seu dinheiro.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/A Virada Financeira.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">A Virada Financeira: Como Mudar sua Relação com o Dinheiro em 30 Dias</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Reprograme sua mente e assuma o controle do seu dinheiro em apenas 30 dias.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/Do Zero ao Controle.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Do Zero ao Controle: o Guia Definitivo das Finanças Pessoais</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">O seu guia completo e prático para sair das dívidas, construir segurança financeira e dominar o investimento para alcançar a paz de espírito.</p>
+                    </div>
+                </div>
+
+                <!-- E-book 6 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Bitcoin - Do Zero ao Especialista.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Bitcoin: Do Zero ao Especialista: O Guia Definitivo para Entender, Comprar, Guardar e Usar o Ativo Mais Importante do Século</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">O guia descomplicado para você entender, comprar e guardar Bitcoin com segurança, transformando o medo em conhecimento sólido.</p>
+                    </div>
+                </div>
+
+                <!-- E-book 7 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Renda Fixa Descomplicada.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Renda Fixa Descomplicada: O Guia Prático para Investir com Segurança e Rentabilidade</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Guia prático que elimina o "economês" e ensina você a investir nos títulos mais seguros (CDB, LCI, Tesouro) para proteger e multiplicar seu dinheiro.</p>
+                    </div>
+                </div>
+
+                <!-- E-book 8 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/A Mentalidade Milionária.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">A Mentalidade Milionária: O Segredo de 'Ser' Antes de 'Ter'</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Manual de transformação que ensina a construir a identidade de riqueza e focando no "SER" para que o sucesso financeiro seja uma consequência natural.</p>
+                    </div>
+                </div>
+                
+                <!-- E-book 9 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/Escravo do Cartão, Nunca Mais.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Escravo do Cartão, Nunca Mais: O Guia Definitivo para Abandonar o Crédito, Sair das Dívidas e Viver Apenas com o Que Você Ganha</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">O plano de fuga para quem está preso em dívidas de cartão, oferecendo um método para negociar, quitar e viver com o débito.</p>
+                    </div>
+                </div>
+                
+                <!-- E-book 10 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/O Inquilino Virou Locador.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">O Inquilino Virou Locador: Como Usar FIIs para Deixar de Pagar e Começar a Receber Aluguéis</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Manual completo para o iniciante que deseja parar de pagar aluguel e começar a recebê-lo mensalmente, investindo em Fundos Imobiliários (FIIs) com isenção de Imposto de Renda.</p>
+                    </div>
+                </div>
+                
+                <!-- E-book 11 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/O Jogo Oculto do Mercado.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">O Jogo Oculto do Mercado: Como Traduzir as Notícias em Decisões de Investimento Lucrativas (Antes de Todo Mundo)</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">O guia que revela os padrões e as conexões lógicas entre as grandes forças econômicas (Juros, Bancos Centrais) e o seu patrimônio, ensinando o investidor a reagir à "causa" em vez da "notícia".</p>
+                    </div>
+                </div>
+                
+                <!-- E-book 12 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/À Prova de Crises.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">À Prova de Crises: Como Investir nos Setores Perenes da Bolsa para Gerar Renda Passiva</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">O manual estratégico para o investidor que deseja trocar a ansiedade da especulação pela tranquilidade, focando na construção de uma fortaleza de renda passiva com ações de setores sólidos e defensivos.</p>
+                    </div>
+                </div>
+                
+                <!-- E-book 13 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/Decifrando o Economês.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Decifrando o Economês: O Mínimo que Você Precisa Entender para Não Ser Enganado</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">O guia prático que traduz a linguagem econômica (Selic, Inflação, Câmbio) para dar o conhecimento essencial que protege o leitor de armadilhas e o capacita a tomar decisões financeiras informadas.</p>
+                    </div>
+                </div>
+                
+                <!-- E-book 14 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Além do Óbvio.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Além do Óbvio: Como Usar os Fundamentos para Descobrir as 'Joias' Escondidas da Bolsa de Valores</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Para o investidor que deseja parar de seguir "dicas quentes" e aprender um método seguro para encontrar e se tornar sócio de empresas espetaculares que o mercado está ignorando.</p>
+                    </div>
+                </div>
+
+                <!-- E-book 15 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/O Mapa do Milhão.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">O Mapa do Milhão: O Guia Prático para Sair do Zero e Chegar aos 7 Dígitos na Bolsa de Valores</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Passo a passo que ensina o iniciante absoluto a construir um patrimônio de sete dígitos de forma segura e consistente, usando a filosofia de investimento Buy & Hold.</p>
+                    </div>
+                </div>
+
+                <!-- E-book 16 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Dolarize-se.jpg" alt="Capa E-book" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Dolarize-se: O Guia Definitivo para Investir no Exterior e Construir Renda Passiva Blindada em Dólar</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Proteja seu dinheiro da inflação e construa renda em moeda forte com Dolarize-se, o guia prático para investir e ganhar em Dólar.</p>
+                    </div>
+                </div>
+
+                <!-- E-book 17 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Riqueza Invisível.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Riqueza Invisível: Por Que os Verdadeiros Ricos Não Precisam Mostrar (e Como Construir a Sua em Silêncio)</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Pare de parecer rico e comece a ser: Riqueza Invisível mostra como abandonar a ostentação e construir uma liberdade financeira silenciosa e real.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 18 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/A Alavancagem Inteligente.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">A Alavancagem Inteligente: Como Usar o Mercado Futuro para Multiplicar seu Capital (com Risco Controlado)</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Pare de tratar o mercado como cassino: A Alavancagem Inteligente ensina a multiplicar capital com gestão profissional de risco, e não com sorte.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 19 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/A Chave da Riqueza.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">A Chave da Riqueza: Os 13 Hábitos que os Ricos Praticam e os Pobres Desconhecem</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Descubra como reprogramar sua mente; um guia prático que transforma hábitos e desbloqueia a mentalidade necessária para prosperar de verdade.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 20 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/O Investidor Blindado.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">O Investidor Blindado: Como Usar Opções para Proteger sua Carteira e Dormir Tranquilo na Bolsa</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Transforme a Bolsa em um lugar seguro: O Investidor Blindado ensina a proteger sua carteira com estratégias simples de hedge para investir com tranquilidade, mesmo nas maiores crises.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 21 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                     <img src="./img/Centavo por Centavo.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Centavo por Centavo: O Guia Prático para Construir Riqueza a Partir do Zero</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Transforme cada centavo em progresso: Este e-book mostra como eliminar ralos de dinheiro, sair das dívidas e construir riqueza de forma simples e prática, mesmo começando do zero.
+
+                    </div>
+                </div>
+
+                <!-- E-book 22 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/Domine seus Impostos, Multiplique seu Dinheiro.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">Domine seus Impostos, Multiplique seu Dinheiro: O Método para Otimizar a Tributação dos seus Investimentos</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Como usar a Inteligência Tributária para investir melhor, pagar menos imposto legalmente e proteger seu patrimônio da Receita Federal.</p>
+                    </div>
+                </div>
+
+                <!-- E-book 23 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/O Dono da Obra.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">O Dono da Obra (e dos Aluguéis): Como Encontrar o Terreno Certo, Construir Quitinetes e Garantir Renda Mensal</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Construa sua própria renda passiva: O Dono da Obra mostra, passo a passo, como investir em quitinetes de forma segura, barata e altamente lucrativa — mesmo sem experiência em construção.
+</p>
+                    </div>
+                </div>
+
+                <!-- E-book 24 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                       <img src="./img/O Raio-X da Bolsa.jpg" alt="" loading="lazy">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800 text-center">O Raio-X da Bolsa: O Guia Definitivo das 50 Empresas que Você Precisa Conhecer</h4>
+                        <p class="text-sm text-gray-600 mt-2 text-center">Invista com foco e segurança: O Raio-X da Bolsa revela as 50 empresas que realmente importam e mostra onde estão as oportunidades reais de lucro.
+</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+        
+        <!-- SEÇÃO PARA QUEM É -->
+        <section class="bg-blue-50 rounded-xl shadow-lg p-6 md:p-10 my-16 border-l-4 border-blue-500">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                Esta coleção é perfeita para você se:
+            </h2>
+            <ul class="space-y-4 text-lg">
+                <li class="flex items-start">
+                    <span class="text-blue-500 font-bold mr-3 text-2xl">✓</span>
+                    <span><b>É INICIANTE:</b> Está perdido e quer um guia "Do Zero ao Controle" para organizar as finanças.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-blue-500 font-bold mr-3 text-2xl">✓</span>
+                    <span><b>ESTÁ ENDIVIDADO:</b> Precisa urgentemente de um plano para se tornar "Escravo do Cartão, Nunca Mais".</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-blue-500 font-bold mr-3 text-2xl">✓</span>
+                    <span><b>É POUPADOR:</b> Tem dinheiro guardado mas está vendo ele derreter na poupança e quer aprender sobre "Renda Fixa".</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-blue-500 font-bold mr-3 text-2xl">✓</span>
+                    <span><b>QUER IR ALÉM:</b> Já investe o básico, mas quer aprender a encontrar as "Joias Escondidas da Bolsa".</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- SEÇÃO DE OFERTA E CTA -->
+        <section class="bg-white rounded-xl shadow-2xl p-6 md:p-10 my-16 border-4 border-green-500 text-center transform scale-100 hover:scale-105 transition-transform duration-300">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
+                Tenha Acesso Imediato à Biblioteca Financeira Completa
+            </h2>
+            <p class="text-lg text-gray-600 mb-6">
+                Quanto vale ter o controle total da sua vida financeira? Se cada e-book fosse vendido separadamente, o pacote completo custaria mais de R$ 997,00.
+            </p>
+            <p class="text-xl text-red-600">
+                Valor normal: <span class="line-through">R$ 997,00</span>
+            </p>
+            <p class="text-lg text-gray-700 mt-6">
+                Mas hoje, por tempo limitado, você leva a coleção completa por:
+            </p>
+            
+            <div class="my-6">
+                <span class="text-6xl md:text-7xl font-extrabold text-green-600">R$ 97,00</span>
+                <span class="text-2xl text-gray-700 font-bold block">ou 12x de R$10,03</span>
+                <span class="text-xl text-yellow-700 font-bold block">(valor promocional para os 300 primeiros)</span>
+            </div>
+
+            <a href="https://pay.hotmart.com/W103070548P" class="block w-full max-w-lg mx-auto bg-green-500 text-white text-2xl md:text-3xl font-bold py-5 px-8 rounded-lg shadow-lg hover:bg-green-600 transition-all duration-300 transform hover:-translate-y-1">
+                👉 QUERO GARANTIR MEU ACESSO À COLEÇÃO!
+            </a>
+            <p class="text-sm text-gray-500 mt-4">Compra 100% segura. Acesso imediato.</p>
+        </section>
+        
+        <!-- SEÇÃO DE GARANTIA -->
+        <section class="my-16">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row items-center justify-center gap-6">
+                <!-- Ícone de Garantia (SVG Inserido) -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                <div class="text-center md:text-left">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-3">
+                        Teste por 7 Dias com Risco Zero
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                        Sua decisão é 100% segura. Você tem <b>7 dias de garantia incondicional</b>. Acesse o material e, se por <b>qualquer</b> motivo você achar que não é para você, basta enviar um único e-mail e nós devolvemos 100% do seu dinheiro. Sem perguntas. O risco é todo nosso.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--SEÇÃO Brindes-->
+        <section class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-10">
+                Ainda está indeciso? Pois então te daremos outros 2 e-books de bônus + um Diagnóstico Financeiro Online:
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- brinde 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Meu Sócio, Meu Amor.jpg"  loading="lazy" alt="Capa Brinde">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800"><P class="text-green-800">Bônus 1:</P>Meu Sócio, Meu Amor: Como Unir Forças no Dinheiro para Realizar Sonhos que Nenhum dos Dois Conseguiria Sozinho</h4>
+                        <p class="text-sm text-gray-600 mt-2">Fortaleça seu relacionamento e suas finanças: Meu Sócio, Meu Amor ensina casais a parar de brigar por dinheiro e a construir prosperidade juntos com estratégias simples e práticas.
+
+
+</p>
+                    </div>
+                </div>
+
+                <!-- brinde 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden flex">
+                    <div class="w-1/3 bg-gray-300 flex items-center justify-center p-4">
+                        <img src="./img/Crie seu Filho Para Ser Rico.jpg"  loading="lazy" alt="Capa Brinde">
+                    </div>
+                    <div class="w-2/3 p-4">
+                        <h4 class="font-bold text-gray-800"><P class="text-green-800">Bônus 2:</P> Crie seu Filho para Ser Rico (Não Apenas para Ter Dinheiro): O Manual da Mentalidade Financeira na Infância</h4>
+                        <p class="text-sm text-gray-600 mt-2">Ensine seu filho a dominar o dinheiro desde cedo: Este é o guia prático que forma jovens seguros, conscientes e preparados para a vida real.
+
+
+</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+          <!-- diagnostico -->
+        <section class="my-16">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row items-center justify-center gap-6">
+                <!-- Ícone de Garantia (SVG Inserido) -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+</svg>
+                <div class="text-center md:text-left">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-3">
+                        Diagnóstico de suas Finanças Pessoais
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                       Após a compra, nossa equipe irá contatá-lo para agendar um Diagnóstico Financeiro, 100% gratuito!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE FAQ -->
+        <section class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-10">
+                Perguntas Frequentes (FAQ)
+            </h2>
+            <div class="space-y-4 max-w-3xl mx-auto">
+                <details class="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                    <summary class="font-semibold text-lg text-gray-800">Como vou receber os e-books?</summary>
+                    <p class="text-gray-700 mt-4">
+                        Assim que seu pagamento for confirmado, você receberá um e-mail com os dados de acesso à nossa área de membros, onde poderá baixar todos os 26 e-books em formato PDF ou Epub.
+                    </p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                    <summary class="font-semibold text-lg text-gray-800">Preciso de conhecimento prévio?</summary>
+                    <p class="text-gray-700 mt-4">
+                        Não! O pacote foi pensado para te levar "Do Zero ao Controle". Temos guias para quem está endividado e guias para quem quer operar na bolsa.
+                    </p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                    <summary class="font-semibold text-lg text-gray-800">A compra é segura?</summary>
+                    <p class="text-gray-700 mt-4">
+                        Sim, o pagamento é processado por uma das maiores e mais seguras plataformas de produtos digitais do Brasil. Seus dados estão 100% protegidos.
+                    </p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                    <summary class="font-semibold text-lg text-gray-800">E se eu não gostar?</summary>
+                    <p class="text-gray-700 mt-4">
+                        Você tem 7 dias de garantia incondicional. Se não for o que você esperava, basta pedir seu dinheiro de volta. Simples assim.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <section class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">
+                Veja o que quem já comprou está falando:
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-green-500">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto do Cliente" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Eu estava afundado no cartão. O e-book 'Escravo do Cartão' e o 'Mente Blindada' mudaram meu jogo. Em 3 meses já quitei boa parte das dívidas."</p>
+                    <h5 class="font-bold text-gray-900">Ricardo M.</h5>
+                    <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full mt-1">Compra Verificada</span>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-green-500">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto do Cliente" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Sempre tive medo da Bolsa de Valores. O guia 'À prova de Crises' e o 'Raio-X da Bolsa' tiraram meu medo. Linguagem simples e direta."</p>
+                    <h5 class="font-bold text-gray-900">Fernanda S.</h5>
+                    <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full mt-1">Compra Verificada</span>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-green-500">
+                        <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Foto do Cliente" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex text-yellow-400 mb-3">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Pelo preço, eu esperava algo básico. Mas a quantidade de conteúdo é absurda. Só a parte de Renda Fixa já valeu o investimento."</p>
+                    <h5 class="font-bold text-gray-900">Carlos Eduardo</h5>
+                    <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full mt-1">Compra Verificada</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="my-16 bg-slate-800 rounded-xl shadow-xl overflow-hidden text-white">
+            <div class="p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+                
+              <div class="flex-shrink-0">
+    <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center text-slate-800 shadow-lg">
+        <!-- Ícone de Âncora (Font Awesome) -->
+        <i class="fas fa-anchor text-4xl"></i>
+    </div>
+</div>
+
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl font-bold mb-4 text-green-400">Sobre a Âncora Consultoria</h3>
+                    <p class="text-lg leading-relaxed text-gray-200">
+                        A Âncora Consultoria Financeira ajuda pessoas a organizarem suas finanças, saírem das dívidas e começarem a investir com propósito, desde 2020. Nosso objetivo é trazer clareza, segurança e estratégia para que você conquiste seus sonhos financeiros.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        
+        <!-- CTA FINAL -->
+        <section class="text-center my-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                Não espere "sobrar dinheiro" para começar a cuidar dele.
+            </h2>
+            <p class="text-xl text-gray-700 mb-8">
+                Aprenda a fazer o dinheiro sobrar e a multiplicá-lo. O conhecimento deste pacote é o ativo mais valioso que você pode adquirir.
+            </p>
+            <a href="https://pay.hotmart.com/W103070548P" class="block w-full max-w-lg mx-auto bg-green-500 text-white text-2xl md:text-3xl font-bold py-5 px-8 rounded-lg shadow-lg hover:bg-green-600 transition-all duration-300 transform hover:-translate-y-1">
+                👉 SIM, QUERO A VIRADA FINANCEIRA (POR R$ 97)!
+            </a>
+        </section>
+
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer class="text-center p-8 mt-10 border-t border-gray-300">
+        <p class="text-sm text-gray-500">
+            © 2025 Âncora Consultoria Financeira. Todos os direitos reservados.
+        </p>  
+    </footer>
+
+    <div id="modal-overlay" class="fixed inset-0 z-[60] hidden" aria-hidden="true">
+    <div class="absolute inset-0 bg-gray-900/60 transition-opacity opacity-0" id="modal-backdrop"></div>
+    
+    <div id="modal-panel" class="absolute right-0 top-0 h-full w-full md:w-[500px] bg-white shadow-2xl transform transition-transform translate-x-full duration-300 flex flex-col">
+        
+        <div class="flex items-center justify-between p-6 border-b border-gray-200 bg-gray-50">
+            <h3 class="text-xl font-bold text-gray-800" id="modal-title">Título do Livro</h3>
+            <button id="btn-close-modal" class="text-gray-500 hover:text-red-600 transition-colors p-2 rounded-full hover:bg-gray-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="flex-1 overflow-y-auto p-6 bg-white">
+            <h4 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">Sumário do Conteúdo</h4>
+            <ul id="modal-list" class="space-y-3 text-gray-700">
+                </ul>
+        </div>
+
+        <div class="p-4 border-t border-gray-200 bg-gray-50 text-center">
+            <button onclick="document.getElementById('modal-overlay').classList.add('hidden')" class="text-sm text-blue-600 hover:underline font-semibold">
+                Fechar Visualização
+            </button>
+        </div>
+    </div>
+</div>
+
+    <!-- SCRIPT DA PROVA SOCIAL -->
+    <script>
+        function atualizarContadores() {
+            // 1. Obter a data e hora atual
+            const agora = new Date();
+            const dia = agora.getDate();     // 1-31
+            const hora = agora.getHours();   // 0-23
+            const minutos = agora.getMinutes(); // 0-59
+
+            // 2. Calcular os valores conforme a lógica solicitada
+            // Número de pacotes restantes: 100 - (data atual * 2)
+            let pacotes = 101 - (dia * 3);
+            
+            // Número de usuários online: 100 - hora atual + minutos atual
+            let usuarios = (33 - hora) + minutos;
+
+            // 3. Garantir que os números não sejam negativos (ajuste de bom senso)
+            // Se o cálculo ficar abaixo de 10, exibe um número mínimo para manter a escassez
+            if (pacotes < 10) {
+                pacotes = 10 + (dia % 3); // Exibe um número baixo, mas não zero
+            }
+            // Garante um número mínimo de usuários online
+            if (usuarios < 5) {
+                usuarios = 5 + (minutos % 5); // Exibe um número baixo, mas não zero
+            }
+
+            if (hora < 5) {
+                usuarios = hora + 9;
+            };
+
+            // 4. Encontrar os elementos e atualizar o texto
+            const elemPacotes = document.getElementById('pacotes-restantes');
+            const elemUsuarios = document.getElementById('usuarios-online');
+
+            if (elemPacotes) {
+                elemPacotes.innerText = pacotes;
+            }
+            if (elemUsuarios) {
+                elemUsuarios.innerText = usuarios;
+            }
+        }
+
+        // 5. Executar a função quando a página carregar e a cada 10 segundos
+        document.addEventListener('DOMContentLoaded', function() {
+            atualizarContadores(); // Executa na carga
+            
+            // Atualiza os contadores a cada 10 segundos
+            setInterval(atualizarContadores, 10000); 
+        });
+    </script>
+
+    <script>
+    // --- DADOS DOS E-BOOKS ---
+    // A ordem aqui deve seguir EXATAMENTE a ordem que aparecem no HTML (do 1 ao 24 + bônus)
+    const ebooksData = [
+        {
+            title: "O que Ninguém te Conta Sobre Dinheiro",
+            summary: [
+            "Introdução: A cortina de fumaça (por que este livro existe?)",
+            "Capítulo 1: O dinheiro não é racional, você também não",
+            "Capítulo 2: A verdade nua e crua sobre a 'renda'",
+            "Capítulo 3: O fator 'sorte' e o fator 'risco'",
+            "Capítulo 4: Inflação: o imposto invisível que devora seu futuro",
+            "Capítulo 5: Bancos não são seus amigos (e gerentes não são seus consultores)",
+            "Capítulo 6: A armadilha do financiamento e da dívida 'boa'",
+            "Capítulo 7: O segredo 'chato' dos juros compostos",
+            "Capítulo 8: O mito do 'escolhedor de ações'",
+            "Capítulo 9: 'Diversificação' é mais do que apenas ter coisas diferentes",
+            "Capítulo 10: Renda fixa não é fixa (e não é tão segura assim)",
+            "Capítulo 11: O primeiro passo ninguém conta: organize a bagunça",
+            "Capítulo 12: O sistema 'pague-se primeiro' (mas de verdade)",
+            "Capítulo 13: O mapa da mina pessoal",
+            "Conclusão: O jogo infinito"
+                            ]
+
+        },
+        {
+           title: "A Máquina de Riqueza",
+            summary: [
+                "Introdução: Você não precisa de sorte, precisa de uma 'máquina'",
+                "Parte 1: O Projeto – Desenhando Sua Máquina",
+                "Capítulo 1: O mindset da riqueza (o combustível certo)",
+                "Capítulo 2: O ponto de partida (limpando o terreno)",
+                "Parte 2: Os Motores – Alimentando a Máquina",
+                "Capítulo 3: O motor principal (otimizando sua renda ativa)",
+                "Capítulo 4: Motores auxiliares (a criação de novas fontes de renda)",
+                "Parte 3: As Engrenagens – As Estratégias Comprovadas de Multiplicação",
+                "Capítulo 5: A força da gravidade (os juros compostos)",
+                "Capítulo 6: A base sólida (estratégias em renda fixa)",
+                "Capítulo 7: Os aceleradores (estratégias em renda variável)",
+                "Capítulo 8: O sistema de segurança (diversificação e alocação)",
+                "Parte 4: A Manutenção – O Crescimento Contínuo",
+                "Capítulo 9: O painel de controle (aportes e rebalanceamento)",
+                "Capítulo 10: Blindagem patrimonial (protegendo o que você construiu)",
+                "Conclusão: A máquina nunca para (e o construtor também não)"
+            ]
+        },
+        {
+            title: "Mente Blindada, Carteira Cheia",
+            summary: [
+                "Introdução: O jogo oculto da compra (e como você está perdendo)",
+                "Capítulo 1: O cérebro no shopping — a química secreta do impulso",
+                "Capítulo 2: O inimigo externo — as armadilhas feitas para você gastar",
+                "Capítulo 3: O raio-x financeiro — para onde realmente vai o dinheiro do impulso?",
+                "Capítulo 4: A regra de ouro — criando espaço entre o desejo e a ação",
+                "Capítulo 5: Desintoxicação digital — retomando o controle do seu celular",
+                "Capítulo 6: Ressignificando o 'eu mereço'",
+                "Capítulo 7: O orçamento 'anti-impulso'",
+                "Capítulo 8: As barreiras de proteção — dificultando o acesso ao dinheiro",
+                "Capítulo 9: O plano de batalha para dias difíceis (e recaídas)",
+                "Capítulo 10: A blindagem permanente — de comprador impulsivo a investidor consciente"
+            ]
+        },
+        {
+            title: "A Virada Financeira",
+            summary: [
+                "Introdução: A promessa dos 30 dias — mais do que dinheiro, uma nova mentalidade",
+
+                "Parte 1: A Fundação (Dias 1–7) — Entendendo sua relação atual com o dinheiro",
+                "Dia 1: O ponto de partida — por que mudar agora?",
+                "Dia 2: O espelho financeiro — confrontando a realidade sem culpa",
+                "Dia 3: Desvendando suas crenças — o que você aprendeu sobre dinheiro na infância?",
+                "Dia 4: O poder do 'porquê' — definindo seus objetivos de vida (além do dinheiro)",
+                "Dia 5: Perdoando dívidas — passadas e emocionais",
+                "Dia 6: O inimigo oculto — identificando seus gatilhos de gastos",
+                "Dia 7: O compromisso — selando o pacto com seu futuro eu",
+
+                "Parte 2: O Diagnóstico (Dias 8–14) — Para onde vai cada centavo",
+                "Dia 8: O raio-x financeiro — coletando todos os números (contas, dívidas, renda)",
+                "Dia 9: O diário de bordo financeiro — o desafio de anotar tudo",
+                "Dia 10: Essencial vs. desejável — a difícil arte de priorizar",
+                "Dia 11: Descobrindo os 'ralos' — onde seu dinheiro está vazando",
+                "Dia 12: Calculando seu patrimônio líquido — mesmo que seja negativo",
+                "Dia 13: O mapa da dívida — entendendo juros, prazos e credores",
+                "Dia 14: A análise da semana — padrões e primeiras descobertas",
+
+                "Parte 3: O Plano de Virada (Dias 15–21) — Desenhando seu novo futuro",
+                "Dia 15: O orçamento base zero — dando um propósito para cada real",
+                "Dia 16: Criando seu plano de ataque às dívidas — método avalanche vs. bola de neve",
+                "Dia 17: O nascimento da reserva de emergência — o primeiro passo",
+                "Dia 18: Automatize seus pagamentos — e seus investimentos",
+                "Dia 19: O sistema de envelopes — físico ou digital — para controlar gastos variáveis",
+                "Dia 20: Negociando dívidas — como falar com bancos e credores",
+                "Dia 21: Definindo metas financeiras claras — curto, médio e longo prazo",
+
+                "Parte 4: A Consolidação (Dias 22–30) — Criando hábitos inabaláveis",
+                "Dia 22: A regra das 72 horas — vencendo a compra por impulso",
+                "Dia 23: Aprendendo a dizer 'não' — para os outros e para você mesmo",
+                "Dia 24: O potencial da renda extra — primeiras ideias e ações",
+                "Dia 25: O básico sobre investir — o próximo nível (começando com o simples)",
+                "Dia 26: Conversando sobre dinheiro — alinhando expectativas com a família",
+                "Dia 27: Blindando sua mente contra comparações — redes sociais e o 'vizinho'",
+                "Dia 28: Lidando com recaídas — o que fazer quando você escorregar",
+                "Dia 29: Celebrando as pequenas vitórias — a importância do reforço positivo",
+                "Dia 30: O dia da virada — seu novo ponto de partida e a vida pós-desafio"
+            ]
+        },
+        {
+            title: "Do Zero ao Controle",
+            summary: [
+                "Parte 1: O ponto de partida (o 'zero')",
+                "Capítulo 1: O despertar financeiro — por que você precisa assumir o controle agora?",
+                "1.1 A mentalidade por trás do 'zero' — saindo da negação financeira",
+                "1.2 A diferença entre ser 'pobre' e estar 'sem dinheiro'",
+                "1.3 Definindo o que 'controle' significa para você (paz, liberdade, segurança)",
+                
+                "Capítulo 2: O diagnóstico honesto — para onde vai cada centavo?",
+                "2.1 O poder de rastrear — descobrindo seus 'ralos' de dinheiro",
+                "2.2 Calculando seu patrimônio líquido — mesmo que seja negativo",
+                "2.3 Ferramentas de diagnóstico — do caderno à planilha e aos aplicativos",
+                
+                "Capítulo 3: O fim da 'corrida dos ratos' — entendendo e quebrando o ciclo da dívida",
+                "3.1 Juros compostos — como eles trabalham contra (e a favor) de você",
+                "3.2 Dívida 'boa' vs. dívida 'ruim'",
+                "3.3 O guia prático para renegociar dívidas e limpar seu nome",
+                
+                "Capítulo 4: O plano de fuga — métodos comprovados para quitar dívidas",
+                "4.1 Método 'avalanche' (foco na matemática) vs. 'bola de neve' (foco na psicologia)",
+                "4.2 Criando um plano de ataque para sair do vermelho",
+                "4.3 A vida após a dívida — como evitar as velhas armadilhas",
+
+                "Parte 2: A construção da segurança",
+                "Capítulo 5: O alicerce de tudo — sua reserva de emergência",
+                "5.1 Por que este é o seu primeiro (e mais importante) investimento",
+                "5.2 Quanto guardar? — o cálculo de 3 a 12 meses do seu custo de vida",
+                "5.3 Onde guardar? — liquidez e segurança acima da rentabilidade",
+                
+                "Capítulo 6: O mapa da riqueza — criando um orçamento que funciona",
+                "6.1 Esqueça as dietas financeiras — o orçamento como ferramenta de liberdade",
+                "6.2 Métodos de orçamento — 50/30/20, base zero, envelopes",
+                "6.3 Ajustando as velas — como revisar seu orçamento sem sofrimento",
+                
+                "Capítulo 7: Definindo o destino — o poder das metas financeiras",
+                "7.1 Transformando sonhos vagos em metas SMART",
+                "7.2 Separando metas de curto, médio e longo prazo",
+                "7.3 Quanto custa seu sonho? — da viagem às férias à aposentadoria",
+
+                "Parte 3: O caminho para a multiplicação (o 'controle')",
+                "Capítulo 8: A arte de fazer sobrar — otimizando gastos e gerando renda extra",
+                "8.1 O 'cafezinho' importa? — identificando gastos invisíveis",
+                "8.2 Minimalismo financeiro — comprando intenção, não impulso",
+                "8.3 Como transformar habilidades em fontes de renda ativa e passiva",
+                
+                "Capítulo 9: O próximo nível — por que a poupança não é suficiente?",
+                "9.1 A inimiga silenciosa — como a inflação corrói seu dinheiro",
+                "9.2 Descobrindo seu perfil de investidor",
+                "9.3 Os três pilares do investimento — segurança, liquidez e rentabilidade",
+                
+                "Capítulo 10: O básico dos investimentos (parte 1): renda fixa",
+                "10.1 Tesouro Direto — o investimento mais seguro do Brasil",
+                "10.2 CDBs, LCIs e LCAs — a 'sopa de letrinhas' dos bancos",
+                "10.3 O que é o FGC — Fundo Garantidor de Créditos",
+                
+                "Capítulo 11: O básico dos investimentos — renda variável",
+                "11.1 Ações — tornando-se sócio das maiores empresas",
+                "11.2 Fundos de investimento — imobiliários, multimercado, ações",
+                "11.3 O mito do 'ficar rico rápido' e a importância do longo prazo",
+                
+                "Capítulo 12: A estratégia mestra — diversificação e rebalanceamento",
+                "12.1 'Não coloque todos os ovos na mesma cesta' — a regra de ouro",
+                "12.2 Montando sua primeira carteira de investimentos",
+                "12.3 Rebalanceamento — a manutenção que garante seus lucros",
+                
+                "Capítulo 13: O controle contínuo — a mentalidade da riqueza",
+                "13.1 O ciclo PDCA nas finanças — planejar, fazer, checar, agir",
+                "13.2 Automatizando suas finanças para focar no que importa",
+                "13.3 Finanças são uma maratona — o poder da consistência",
+
+                "Sua jornada começa agora — mas você não precisa segui-la sozinho"
+            ]
+        },
+        {
+            title: "Bitcoin: Do Zero ao Especialista",
+            summary: [
+            "Introdução: A revolução silenciosa (por que este livro é para você?)",
+            
+            "Parte 1: O ponto de partida (o 'zero')",
+            "Capítulo 1: O problema (antes do bitcoin)",
+            "Capítulo 2: A solução (o que é bitcoin?)",
+            "Capítulo 3: A mágica por trás da moeda (como funciona?)",
+            "Capítulo 4: De onde vêm os bitcoins? (mineração e escassez)",
+            
+            "Parte 2: O caminho do aprendizado (o 'intermediário')",
+            "Capítulo 5: Primeiros passos (comprando seu primeiro bitcoin)",
+            "Capítulo 6: O cofre digital (como armazenar seu bitcoin com segurança)",
+            "Capítulo 7: Usando bitcoin no mundo real",
+            
+            "Parte 3: A visão do especialista (o 'avançado')",
+            "Capítulo 8: O ouro digital (bitcoin como investimento)",
+            "Capítulo 9: Analisando o bitcoin (métricas de especialista)",
+            "Capítulo 10: Riscos, mitos e FUD",
+            "Capítulo 11: O ecossistema (bitcoin vs. o resto)",
+            "Capítulo 12: O futuro (o que esperar?)",
+            
+            "Conclusão: Bem-vindo à toca do coelho"
+            ]
+        },
+        {
+            title: "Renda Fixa Descomplicada",
+            summary: [
+            "Introdução: Por que a renda fixa é o alicerce do seu patrimônio?",
+            
+            "Parte 1: Os fundamentos (o que ninguém explica direito)",
+            "Capítulo 1: O que é renda fixa?",
+            "Capítulo 2: Os 'sabores' da rentabilidade",
+            
+            "Parte 2: O cardápio de investimentos (onde colocar seu dinheiro)",
+            "Capítulo 3: Tesouro Direto - o investimento mais seguro do Brasil",
+            "Capítulo 4: Os títulos dos bancos (CDBs, LCIs e LCAs)",
+            "Capítulo 5: Outras opções para diversificar (assumindo um risco controlado)",
+            
+            "Parte 3: As regras do jogo (o que você precisa saber)",
+            "Capítulo 6: O sócio oculto - a tributação (impostos)",
+            "Capítulo 7: O anjo da guarda - o FGC (Fundo Garantidor de Créditos)",
+            "Capítulo 8: O 'fantasma' da marcação a mercado (MDM)",
+            
+            "Parte 4: O guia prático (mão na massa)",
+            "Capítulo 9: O passo zero - sua reserva de emergência",
+            "Capítulo 10: Definindo seus objetivos (o mapa do tesouro)",
+            "Capítulo 11: Montando sua carteira de renda fixa (mão na massa)",
+            
+            "Conclusão: Você dominou a renda fixa (e agora?)"
+            ]
+        },
+        {
+            title: "A Mentalidade Milionária",
+            summary: [
+            "Introdução: O Paradoxo da Riqueza",
+            
+            "Parte 1: A Armadilha do 'Ter' (A Mentalidade de Escassez)",
+            "Capítulo 1: A Corrida dos Ratos Moderna",
+            "Capítulo 2: O Espelho Vazio",
+            "Capítulo 3: Por Que Suas Metas Financeiras Falham",
+            
+            "Parte 2: A Fundação do 'Ser' (Construindo a Identidade Milionária)",
+            "Capítulo 4: O Termostato Financeiro: Sua Identidade Atual",
+            "Capítulo 5: Desprogramando a Pobreza",
+            "Capítulo 6: O 'Ser' Milionário: Definindo Seus Novos Valores",
+            "Capítulo 7: A Linguagem da Abundância",
+            
+            "Parte 3: A Ponte Para o 'Ter' (O 'Fazer' Milionário)",
+            "Capítulo 8: O 'Fazer' Alinhado ao 'Ser'",
+            "Capítulo 9: Os Hábitos de Quem É Próspero",
+            "Capítulo 10: A Visão Milionária Sobre Risco e Oportunidade",
+            
+            "Parte 4: O 'Ter' Como Consequência Inevitável",
+            "Capítulo 11: O Dinheiro Encontra Você",
+            "Capítulo 12: A Verdadeira Riqueza",
+            
+            "Conclusão: Você Já 'É'"
+            ]
+        },
+        {
+            title: "Escravo do Cartão, Nunca Mais",
+            summary: [
+            "Introdução",
+            
+            "Parte 1: O Diagnóstico - Por Que Você Virou um 'Escravo'?",
+            "Capítulo 1: A Ilusão do Poder de Compra",
+            "Capítulo 2: O Ciclo Vicioso da Fatura",
+            
+            "Parte 2: O Plano de Fuga - Abandonando o Crédito e Saindo das Dívidas",
+            "Capítulo 3: A Decisão Radical (O 'Dia D')",
+            "Capítulo 4: O Método 'Quebra-Corrente' para Quitar a Dívida",
+            "Capítulo 5: Levantando o Dinheiro para a Liberdade",
+            
+            "Parte 3: A Nova Vida - Vivendo Apenas com o que Você Ganha",
+            "Capítulo 6: A Ferramenta da Liberdade: O Orçamento 'Base Zero'",
+            "Capítulo 7: O Músculo do Débito: Aprendendo a Viver no Presente",
+            "Capítulo 8: Blindando Seu Futuro (O 'Nunca Mais')",
+            
+            "Conclusão: Você Não É Mais um Escravo"
+            ]
+        },
+        {
+            title: "O Inquilino Virou Locador",
+            summary: [
+            "Introdução: A Virada de Chave",
+
+            "Capítulo 1: A Armadilha do Aluguel",
+            "Capítulo 2: O Sonho de Ser 'Locador' (E O Pesadelo Escondido)",
+            "Capítulo 3: O Locador Digital (A Descoberta dos FIIs)",
+            "Capítulo 4: Abrindo as Portas do Seu 'Imóvel' Digital",
+            "Capítulo 5: Comprando Seu Primeiro 'Metro Quadrado' (Sua Primeira Cota)",
+            "Capítulo 6: Escolhendo os Melhores 'Inquilinos' (Analisando FIIs)",
+            "Capítulo 7: O Poder da Bola de Neve (Reinvestindo os Aluguéis)",
+            "Capítulo 8: Não Coloque Todos os Ovos no Mesmo 'Prédio' (A Diversificação)",
+            "Capítulo 9: A Burocracia (Simplificada) de Ser Locador",
+
+            "Conclusão: Você Agora É o Locador"
+            ]
+        },
+        {
+            title: "O Jogo Oculto do Mercado",
+            summary: [
+            "Introdução",
+
+            "Capítulo 1: O Jogo Oculto (Que a Maioria Perde)",
+            "Capítulo 2: Os Grandes Jogadores e o Tabuleiro",
+            "Capítulo 3: Decifrando o 'Economês' Local (Brasil)",
+            "Capítulo 4: Decifrando o 'Economês' Global (O Que Importa Lá Fora)",
+            "Capítulo 5: A Linguagem Secreta dos Bancos Centrais (Copom e Fomc)",
+            "Capítulo 6: Política, Reformas e o 'Risco-Brasil'",
+            "Capítulo 7: O Impacto nas Empresas (Resultados, Dividendos e Fatos Relevantes)",
+            "Capítulo 8: Construindo Seu 'Painel de Controle' (Filtrando o Ruído)",
+            "Capítulo 9: O Framework de Decisão (Da Notícia à Ação)",
+
+            "Capítulo 10: Conclusão — Jogando Para Ganhar (Antes de Todo Mundo)"
+            ]
+        },
+        {
+            title: "À Prova de Crises",
+            summary: [
+            "Introdução: O Barulho do Mercado vs. A Solidez da Renda",
+
+            "Módulo 1: O Fundamento da Renda Passiva (O 'Porquê')",
+            "Capítulo 1: Além do Salário — Por Que Sua Renda Precisa de um 'Motor Auxiliar'",
+            "Capítulo 2: O Poder dos Dividendos na Prática",
+
+            "Módulo 2: O Mapa da Mina (Os 'Setores Perenes')",
+            "Capítulo 3: O Que Torna um Setor 'À Prova de Crises'?",
+            "Capítulo 4: O Setor Elétrico — A Conta de Luz Que Paga Suas Contas",
+            "Capítulo 5: Saneamento Básico — O Lucro Que Brota da Torneira",
+            "Capítulo 6: Bancos & Seguradoras — Os Pilares do Sistema",
+            "Capítulo 7: Telecomunicações — A Nova Necessidade Básica",
+            "Capítulo 8: Menções Honrosas e o Paradoxo da Saúde",
+
+            "Módulo 3: O Manual do Investidor (O 'Como Fazer')",
+            "Capítulo 9: O Checklist do Sócio Perene",
+            "Capítulo 10: Quanto Pagar? O Dilema do Preço Teto",
+            "Capítulo 11: Montando a Carteira 'À Prova de Crises'",
+
+            "Módulo 4: A Jornada (O 'Depois de Montar')",
+            "Capítulo 12: A Mente Blindada — O Que Fazer Quando a Crise Chegar",
+            "Capítulo 13: O Reinvestimento na Prática",
+
+            "Conclusão: Você Não Precisa do Próximo 'Milagre'"
+            ]
+        },
+        {
+            title: "Decifrando o Economês",
+            summary: [
+            "Introdução: Por Que o 'Economês' Existe (E Por Que Você Não Precisa Dele)",
+            "Parte 1: O Termômetro Do Seu Dia a Dia (O Que Você Sente No Bolso)",
+            "Capítulo 1: O Vilão Mais Famoso – A Inflação",
+            "Capítulo 2: O Dono Da Bola – A Taxa Selic",
+            "Capítulo 3: O Primo Rico Da Selic – O CDI",
+            "Capítulo 4: O Termômetro Do Mundo – O Câmbio (O Dólar)",
+            "Parte 2: Os Bastidores Do Jogo (Quem Mexe As Peças)",
+            "Capítulo 5: O 'Chefe' Do Dinheiro – O Banco Central (BC)",
+            "Capítulo 6: O Outro Lado Do Poder – O Governo E A Política Fiscal",
+            "Capítulo 7: O 'Tamanho Do Bolo' – O PIB (Produto Interno Bruto)",
+            "Parte 3: Onde Seu Dinheiro Entra (E Como Ele Trabalha)",
+            "Capítulo 8: A Oitava Maravilha Do Mundo – Os Juros Compostos",
+            "Capítulo 9: Emprestando Dinheiro (Com Segurança) – Renda Fixa",
+            "Capítulo 10: Virando Sócio De Empresas – A Bolsa De Valores",
+            "Capítulo 11: A Sopa De Letrinhas Dos Impostos (IR E IOF)",
+            "Conclusão: O 'Economês' Não Manda Mais Em Você"
+            ]
+        },
+        {
+            title: "Além Do Óbvio",
+            summary: [
+            "Introdução: O Custo De Seguir A Manada",
+            "Parte 1: O Mapa Do Tesouro (Os Indicadores Fundamentais)",
+            "Capítulo 1: Começando Pelo Lucro (O P/L E O Lucro Por Ação)",
+            "Capítulo 2: A Geração De Caixa (EBITDA E Margem EBITDA)",
+            "Capítulo 3: A Eficiência Do Negócio (ROE E ROIC)",
+            "Capítulo 4: O Risco Escondido (Análise De Dívida)",
+            "Capítulo 5: Ela Paga Dividendos? (Dividend Yield E Payout)",
+            "Parte 2: A Análise 'Além Do Óbvio' (O Fator Qualitativo)",
+            "Capítulo 6: O 'Fosso' Da Empresa (Vantagens Competitivas)",
+            "Capítulo 7: Quem Está No Comando? (Análise Da Gestão)",
+            "Parte 3: O Guia Prático Do Garimpeiro (Encontrando Suas 'Joias')",
+            "Capítulo 8: Onde Procurar? (Usando Filtros E Screeners)",
+            "Capítulo 9: O Checklist Da 'Joia' (Juntando Os Indicadores)",
+            "Capítulo 10: A Hora De Comprar (Margem De Segurança)",
+            "Conclusão: O Trabalho De Sócio Nunca Acaba"
+            ]
+        },
+        {
+            title: "O Mapa Do Milhão",
+            summary: [
+            "Introdução: O 'X' No Mapa (Por Que O Primeiro Milhão É Possível Para Você)",
+            "Parte 1: Preparando A Mochila (O Ponto Zero)",
+            "Capítulo 1: A Mentalidade Dos 7 Dígitos",
+            "Capítulo 2: Zerando O Terreno (A Faxina Financeira)",
+            "Capítulo 3: O Que É A Bolsa (B3) Sem 'Economês'?",
+            "Parte 2: As Ferramentas Da Jornada (O Que Comprar?)",
+            "Capítulo 4: O Acampamento Base (A Renda Fixa)",
+            "Capítulo 5: As Trilhas Principais (Ações)",
+            "Capítulo 6: Atalhos Lucrativos (Fundos Imobiliários - FIIs)",
+            "Capítulo 7: O Veículo 4x4 (ETFs E Fundos De Investimento)",
+            "Parte 3: Lendo O Mapa (A Estratégia)",
+            "Capítulo 8: Investir Vs. Especular (A Batalha De 10 Anos Vs. 10 Minutos)",
+            "Capítulo 9: Análise Fundamentalista Simplificada (O 'Google Maps' Das Ações)",
+            "Capítulo 10: O Poder Do Aporte Constante)",
+            "Parte 4: Traçando A Rota (Montando Seu Plano Na Prática)",
+            "Capítulo 11: O GPS Da Carteira (Definindo Seu Perfil De Risco)",
+            "Capítulo 12: A Montagem Da Carteira '7 Dígitos'",
+            "Capítulo 13: O Guia Prático Do Primeiro Investimento)",
+            "Parte 5: A Escalada (Mantendo-Se No Caminho)",
+            "Capítulo 14: O Piloto Automático (Rebalanceamento De Carteira)",
+            "Capítulo 15: Aceleradores Para O Milhão",
+            "Conclusão: Você Chegou Ao Destino (O Que Fazer Com Seu Milhão?)"
+            ]
+        },
+        {
+            title: "Dolarize-Se",
+            summary: [
+            "Introdução: Sua Liberdade Financeira Fala Inglês",
+
+            "Módulo 1: A Mentalidade Da Moeda Forte",
+            "Capítulo 1: Por Que A Renda Passiva Em Dólar É A Sua Melhor Proteção",
+            "1.1. O Peso Da Inflação E A Desvalorização Do Real: A Urgência De Dolarizar",
+            "1.2. O Poder De Compra Global: O Que Significa Ter Renda Em Dólar",
+            "1.3. Desmistificando O 'Investimento No Exterior': É Mais Fácil Do Que Parece",
+            "Capítulo 2: Os Fundamentos Da Renda Passiva",
+            "2.1. O Que É Renda Passiva E Por Que Ela É O Caminho Para A Liberdade Financeira",
+            "2.2. O Efeito Bola De Neve: Juros Compostos E Dividendos Em Moeda Forte",
+            "2.3. A Blindagem: Como A Diversificação Global Protege Seu Patrimônio",
+
+            "Módulo 2: O Mapa Da Jornada: Do Real Ao Dólar",
+            "Capítulo 3: Abrindo Portas: Contas E Corretoras Internacionais",
+            "3.1. Corretoras: Brasileiras Com Acesso Ao Exterior Vs. Corretoras Nativas Americanas",
+            "3.2. O Passo A Passo Para Abrir Sua Conta No Exterior (Em Menos De 10 Minutos)",
+            "3.3. A Prática Do Câmbio: As Melhores Formas E Momentos De Enviar Dinheiro Para Fora",
+            "Capítulo 4: Aspectos Legais E Tributários (Regime Vigente Pós-2024)",
+            "4.1. Como A Receita Federal Vê Seus Ganhos Em Dólar (E O Novo Regime Simplificado)",
+            "4.2. Declaração De Imposto De Renda: O Básico Para O Investidor Iniciante",
+            "4.3. O Fisco Americano (W-8BEN): Isenção E Otimização Da Retenção",
+
+            "Módulo 3: As Fontes De Renda Passiva Em Dólar",
+            "Capítulo 5: O Caminho Mais Simples: ETFs Distribuidores De Dividendos",
+            "5.1. O Que São ETFs (Exchange Traded Funds) E Por Que São Ideais Para O Iniciante",
+            "5.2. Top 5 ETFs Para Renda Passiva Imediata: Foco Em Dividendos",
+            "5.3. Como Montar Uma Carteira De Baixo Custo E Alta Diversificação",
+            "Capítulo 6: Renda Passiva Imobiliária Com REITs",
+            "6.1. O Que São REITs E Por Que São Os 'Fundos Imobiliários Americanos'",
+            "6.2. Tipos De REITs: Data Centers, Logística E O Setor Que Paga Mais",
+            "6.3. Como Analisar Um REIT: Métricas Chave Para Receber Aluguéis Em Dólar",
+            "Capítulo 7: O Clássico: Ações Pagadoras De Dividendos Americanos",
+            "7.1. As Dividend Aristocrats E Dividend Kings: Empresas Que Pagam Há Décadas",
+            "7.2. Analisando Uma Ação: Foco No Dividend Yield E Na Sustentabilidade Do Pagamento",
+            "7.3. Os Melhores Setores Para Viver De Renda Nos EUA: Tecnologia, Saúde E Utilities",
+
+            "Módulo 4: Estratégias Avançadas Para O Próximo Nível",
+            "Capítulo 8: Renda Fixa E Títulos Do Tesouro Americano (Bonds)",
+            "8.1. Segurança Máxima: Como Investir No T-Bond E T-Bill Para Ganhos De Baixo Risco",
+            "8.2. Renda Passiva Em Dólar Na Prática: Fundos De Renda Fixa Internacional",
+            "Capítulo 9: O Plano De Ação Para A Independência Financeira",
+            "9.1. Calculando Seu Número Mágico: Quanto Você Precisa Para Viver De Renda Em Dólar",
+            "9.2. A Estratégia Dos Aportes E Reinvestimento: Acelerando Sua Liberdade",
+            "9.3. O Compromisso Final: Seus Próximos 7 Dias No Caminho Da Dolarização"
+            ]
+        },
+        {
+            title: "Riqueza Invisível",
+            summary: [
+            "Introdução: O Teatro Da Riqueza (E Quem Realmente Paga O Ingresso)",
+
+            "Parte 1: A Epidemia Da Riqueza Visível (O Diagnóstico)",
+            "Capítulo 1: O Palco De Milhões: Como O Instagram Nos Ensinou A Ser Pobres",
+            "Capítulo 2: Inflação De Estilo De Vida: A Roda De Hamster Do 'Eu Mereço'",
+            "Capítulo 3: Por Que 'Fingir Até Conseguir' Não Funciona Com Dinheiro",
+
+            "Parte 2: A Mentalidade Da Riqueza Invisível (A Mudança De Paradigma)",
+            "Capítulo 4: O Que É Riqueza Invisível? (Spoiler: Não É O Que Você Veste)",
+            "Capítulo 5: O Poder Do 'Não': Por Que Os Verdadeiros Ricos Não Precisam Mostrar",
+            "Capítulo 6: O Novo Símbolo De Status É A Liberdade",
+
+            "Parte 3: O Manual Da Construção Silenciosa (O Plano De Ação)",
+            "Capítulo 7: Passo 1: O 'Detox' Da Ostentação",
+            "Capítulo 8: Passo 2: A Arquitetura Da Riqueza Silenciosa",
+            "Capítulo 9: Passo 3: O 'Ataque' Secreto (Investindo Sem Plateia)",
+            "Capítulo 10: Como Lidar Com A Pressão Social (Sem Ser O 'Chato' Do Grupo)",
+
+            "Conclusão: O Silêncio Ensurdecedor Do Sucesso"
+                    ]
+        },
+        {
+            title: "A Alavancagem Inteligente",
+            summary: [
+            "Introdução: A Faca De Dois Gumes",
+
+            "Parte 1: O Veículo (Entendendo O Mercado Futuro)",
+            "Capítulo 1: O Que Raios É Um Contrato Futuro?",
+            "Capítulo 2: A Mecânica Por Trás Da Mágica",
+
+            "Parte 2: O Motor (O Poder De Multiplicar Capital)",
+            "Capítulo 3: A Matemática Da Alavancagem",
+            "Capítulo 4: Operando Comprado (Long) Vs. Vendido (Short)",
+
+            "Parte 3: Os Freios (O Risco Controlado)",
+            "Capítulo 5: O Pilar Mestre: Gerenciamento De Risco",
+            "Capítulo 6: O Tamanho Da Posição (Gestão De Mão)",
+            "Capítulo 7: O Inimigo Interno: Psicologia E Alavancagem",
+
+            "Parte 4: O Manual Do Piloto (Estratégias Práticas)",
+            "Capítulo 8: Montando Seu Plano De Voo (Plano De Trade)",
+            "Capítulo 9: Estudos De Caso: Alavancagem Burra Vs. Inteligente",
+
+            "Conclusão: A Alavancagem Como Ferramenta, Não Como Bilhete De Loteria"
+            ]
+        },
+        {
+            title: "A Chave Da Riqueza",
+            summary: [
+            "O 'Clique' Da Chave: Por Que A Riqueza É Um Hábito E Não Um Acaso",
+
+            "Hábito 1: A Mentalidade De Controle (A Chave Da Responsabilidade)",
+            "Hábito 2: A Mentalidade De Foco (A Chave Da Intenção)",
+            "Hábito 3: A Mentalidade Da Admiração (A Chave Da Associação)",
+            "Hábito 4: A Mentalidade Do Jogo (A Chave Da Ambição)",
+            "Hábito 5: A Mentalidade Do Investidor (A Chave Do 'Pague-Se Primeiro')",
+            "Hábito 6: A Mentalidade Da Alavancagem (A Chave De Ganhar Mais)",
+            "Hábito 7: A Mentalidade Do Risco (A Chave Da Coragem)",
+            "Hábito 8: A Mentalidade Do Aprendizado (A Chave Do Crescimento)",
+            "Hábito 9: A Mentalidade Da Visão (A Chave Do Longo Prazo)",
+            "Hábito 10: A Mentalidade Da Ação (A Chave Da Execução)",
+            "Hábito 11: A Mentalidade Da Resiliência (A Chave Do Fracasso)",
+            "Hábito 12: A Mentalidade Da Contribuição (A Chave Da Generosidade)",
+            "Hábito 13: A Mentalidade Da Saúde (A Chave Da Energia)",
+
+            "Conclusão: A Chave Está Na Sua Mão (O Fim Do Começo)"
+            ] 
+        },
+        {
+            title: "O Investidor Blindado",
+            summary: [
+            "Nota Do Autor: Um Pacto De Responsabilidade",
+            "Introdução: É Possível 'Dormir Tranquilo' Na Renda Variável?",
+
+            "Módulo 1: O Campo De Batalha (Por Que Você Precisa De Um Escudo?)",
+            "Capítulo 1: O Risco Que Ninguém Vê (Até Ser Tarde Demais)",
+            "Capítulo 2: O 'Seguro' Da Bolsa (Apresentando As Opções)",
+
+            "Módulo 2: As Ferramentas Da Blindagem (O Arsenal Do Investidor)",
+            "Capítulo 3: Identificando O 'Inimigo' (O Que Você Quer Proteger?)",
+            "Capítulo 4: Comprando Seu Escudo (A Put)",
+            "Capítulo 5: A Venda Coberta (É Hedge Ou Renda?)",
+
+            "Módulo 3: Estratégias Práticas De Hedge (Montando A Armadura)",
+            "Capítulo 6: A Blindagem Clássica (Compra De Put 'Seca')",
+            "Capítulo 7: A Blindagem 'Custo Zero' (A Estratégia De Collar)",
+            "Capítulo 8: O Hedge De Carteira (Protegendo O 'Todo')",
+
+            "Módulo 4: O Dia A Dia Do Investidor Blindado (Gestão E Psicologia)",
+            "Capítulo 9: A Hora Certa De Montar (E Desmontar) O Hedge",
+            "Capítulo 10: Os 3 Erros Fatais Ao Fazer Hedge (Que Custam Caro)",
+
+            "Conclusão: A Paz De Espírito Tem Preço (E Geralmente Vale A Pena)"
+            ]
+        },
+        {
+            title: "Centavo Por Centavo",
+            summary: [
+            "Introdução: O Mito Do 'Pulo Do Gato' E O Poder Do Processo",
+
+            "Parte 1: A Fundação – Por Que Você Está No Zero",
+            "Capítulo 1: O Desprezo Pelo Trocado: A Psicologia Que Mantém Você Pobre",
+            "Capítulo 2: O Respeito Ao Dinheiro (Não É Sobre Ser 'Pão-Duro')",
+            "Capítulo 3: O Raio-X Financeiro: O Diagnóstico Sincero",
+
+            "Parte 2: A Construção – O Método 'Centavo Por Centavo'",
+            "Capítulo 4: Orçamento Base Zero: Onde Cada Centavo Ganha Um Propósito",
+            "Capítulo 5: O Detetive De Centavos: Encontrando Dinheiro Escondido No Seu Dia A Dia",
+            "Capítulo 6: O Fim Do Desespero: Construindo Sua Reserva De Emergência (O Primeiro Pilar)",
+            "Capítulo 7: A Batalha Contra O 'Zero Negativo': Um Plano De Guerra Para Sair Das Dívidas",
+
+            "Parte 3: A Multiplicação – De Zero A Investidor",
+            "Capítulo 8: O Salto Do Poupador: O Juro Composto É A Oitava Maravilha Do Mundo",
+            "Capítulo 9: Seus Primeiros Investimentos (O Guia Para Quem Não Sabe Nada)",
+            "Capítulo 10: A Renda Extra: Acelerando O Processo",
+
+            "Parte 4: A Mentalidade De Longo Prazo",
+            "Capítulo 11: O 'Lifestyle Creep': A Armadilha De Quem Começa A Ganhar Mais",
+            "Capítulo 12: A Jornada De Milhões Começou Com O Primeiro Centavo",
+
+            "Conclusão: Você Agora É O Mestre Dos Seus Centavos"
+            ]
+
+        },
+        {
+            title: "Domine Seus Impostos, Multiplique Seu Dinheiro",
+            summary: [
+            "Introdução: O Imposto Oculto Que Corrói Seus Ganhos",
+
+            "Parte 1: Os Pilares (Domine As Regras Do Jogo)",
+            "Capítulo 1: O 'DNA' Do Imposto No Brasil",
+            "Capítulo 2: A Ferramenta De Ouro: Compensação De Prejuízos",
+
+            "Parte 2: O Mapa Dos Ativos (Como Cada Investimento É Tributado)",
+            "Capítulo 3: Renda Fixa (O Tempo É Dinheiro)",
+            "Capítulo 4: Ações (Swing Trade E Buy & Hold)",
+            "Capítulo 5: Operações Especiais (Day Trade, ETFs E BDRs)",
+            "Capítulo 6: Fundos De Investimento (FIIs, FIAs E Multimercado)",
+            "Capítulo 7: A Nova Fronteira (Criptomoedas)",
+
+            "Parte 3: O Método (Estratégias Para Multiplicar Seu Dinheiro)",
+            "Capítulo 8: Otimização Na Renda Fixa: O 'Envelope Fiscal'",
+            "Capítulo 9: Otimização Na Renda Variável: A 'Colheita De Prejuízo'",
+            "Capítulo 10: Otimização Na Aposentadoria (PGBL Vs. VGBL)",
+            "Capítulo 11: Otimização Na Herança: O Planejamento Sucessório",
+
+            "Parte 4: A Execução (Domine O Leão Na Prática)",
+            "Capítulo 12: O Ciclo Mensal: Apuração E Pagamento De DARFs",
+            "Capítulo 13: A Declaração Anual (IRPF) Sem Erros",
+            "Capítulo 14: Bônus – Caí Na Malha Fina. E Agora?",
+
+            "Conclusão: O Imposto Como Seu Aliado",
+            "Apêndices"
+            ]
+},
+        {
+            title: "O Dono Da Obra",
+            summary: [
+            "Introdução: O Jogo Mudou",
+
+            "Parte 1: O Dono (O Preparo)",
+            "Capítulo 1: O Custo Real Da Obra (Antes De Gastar R$ 1)",
+            "Capítulo 2: Definindo O Público-Alvo (Quem Vai Pagar Seu Aluguel?)",
+
+            "Parte 2: Encontrando O Terreno Certo (A Base Do Lucro)",
+            "Capítulo 3: O Detetive De Lotes (Onde Procurar)",
+            "Capítulo 4: A Avaliação Técnica (O Que O Olho Não Vê)",
+            "Capítulo 5: A Burocracia Que Salva (Onde O Amador Cai)",
+            "Capítulo 6: A Arte Da Negociação (Comprando Abaixo Do Preço)",
+
+            "Parte 3: Construindo Quitinetes (A Execução)",
+            "Capítulo 7: O Projeto Anti-Desperdício",
+            "Capítulo 8: A Batalha Dos Alvarás",
+            "Capítulo 9: O Dono Da Obra (Gerenciando O Canteiro)",
+
+            "Parte 4: Garantindo Renda Mensal (O Dono Dos Aluguéis)",
+            "Capítulo 10: O Habite-Se E A Legalização Final",
+            "Capítulo 11: Precificando O Aluguel (Sem Achismo)",
+            "Capítulo 12: O Inquilino Ideal (A Blindagem Anti-Dor De Cabeça)",
+            "Capítulo 13: O Contrato Blindado",
+
+            "Conclusão: O Ciclo Da Riqueza"
+            ]
+        },
+        {
+            title: "O Raio-X Da Bolsa",
+            summary: [
+            "Aviso Importante: Isenção De Responsabilidade",
+            "Por Que 'Apenas 50'? O Foco No Que Realmente Importa",
+
+            "Parte 1: Os Pilares Do Mercado (As Gigantes De Commodities)",
+            "1. Vale S.A.",
+            "2. Petrobras",
+            "3. Suzano",
+            "4. Gerdau",
+
+            "Parte 2: O Cofre Forte (Os Maiores Bancos E O Setor Financeiro)",
+            "5. Itaú Unibanco",
+            "6. Banco Do Brasil",
+            "7. Bradesco",
+            "8. BTG Pactual",
+            "9. B3 (Brasil, Bolsa, Balcão)",
+
+            "Parte 3: No Dia A Dia (Consumo, Varejo E Serviços)",
+            "10. Ambev",
+            "11. Magazine Luiza",
+            "12. Localiza",
+            "13. Lojas Renner",
+
+            "Parte 4: A Conta De Luz (Utilities: Elétricas E Saneamento)",
+            "14. Axia Energia (Antiga Eletrobras)",
+            "15. Taesa",
+            "16. Engie Brasil",
+            "17. Sabesp",
+
+            "Parte 5: O Alicerce E A Inovação (Indústria, Construção E Tecnologia)",
+            "18. WEG",
+            "19. Embraer",
+            "20. TOTVS",
+            "21. Rumo",
+            "22. CCR",
+            "23. Santos Brasil",
+            "24. Cyrela",
+
+            "Parte 6: Saúde E Bem-Estar (Hospitais E Farmácias)",
+            "25. RD Saúde (RaiaDrogasil)",
+            "26. Rede D'Or São Luiz",
+            "27. Hapvida NotreDame Intermédica",
+            "28. Grupo Fleury",
+
+            "Parte 7: Os Templos Do Consumo (Shopping Centers E Propriedades)",
+            "29. Multiplan",
+            "30. Allos",
+
+            "Parte 8: O Escudo E O Futuro (Seguros E Holdings)",
+            "31. BB Seguridade",
+            "32. Porto",
+            "33. Itaúsa",
+
+            "Parte 9: O Celeiro Do Mundo (Agronegócio, Alimentos E Transformação)",
+            "34. JBS",
+            "35. Klabin",
+            "36. Raízen",
+            "37. SLC Agrícola",
+            "38. Assaí Atacadista",
+            "39. Grupo Mateus",
+
+            "Parte 10: O Brasil Que Funciona (Serviços B2B, Indústria Leve E Outros)",
+            "40. Tupy",
+            "41. Marcopolo",
+            "42. Randoncorp",
+            "43. Hypera Pharma",
+            "44. PRIO (Antiga PetroRio)",
+            "45. Vivo (Telefônica Brasil)",
+            "46. Cosan",
+            "47. Ultrapar",
+            "48. Sanepar",
+            "49. Caixa Seguridade",
+            "50. ISA CTEEP (Transmissão Paulista)",
+
+            "Conclusão: Agora O Jogo Começou De Verdade"
+            ]
+
+        },
+        {
+            title: "Meu Sócio, Meu Amor",
+            summary: [
+            "Introdução: A Startup Mais Importante Da Sua Vida",
+
+            "Parte 1: O Contrato De Sociedade (Alinhando O Mindset)",
+            "Capítulo 1: Por Que 'Meu Sócio' Antes De 'Meu Amor' Nas Finanças?",
+            "Capítulo 2: O Inimigo Oculto: O 'Meu' Vs. 'Nosso'",
+            "Capítulo 3: O Mito Da Transparência Total (Ou Da Privacidade Total)",
+
+            "Parte 2: A Reunião De Diretoria (A Prática Da Comunicação)",
+            "Capítulo 4: A 'R.D.A.' - A Reunião De Diretoria Afetiva",
+            "Capítulo 5: O 'CNPJ' Do Casal: Juntos, Separados Ou Misturados?",
+            "Capítulo 6: O 'Plano De Negócios' Da Família",
+
+            "Parte 3: Unindo Forças (O Plano De Ação Estratégico)",
+            "Capítulo 7: Operação 'Sócio Salva Sócio': Saindo Do Vermelho Juntos",
+            "Capítulo 8: O 'Caixa' Da Empresa: A Reserva De Emergência Do Casal",
+            "Capítulo 9: Multiplicando O 'Patrimônio': Começando A Investir A Dois",
+
+            "Parte 4: Os Sonhos Que O Dinheiro Compra (O 'Porquê')",
+            "Capítulo 10: O 'Quadro De Sonhos' Que Vale Milhões",
+            "Capítulo 11: Os Grandes 'Projetos': Filhos, Casa Própria E Aposentadoria",
+
+            "Conclusão: A Sociedade Infinita"
+            ],
+    },
+    {
+            title: "Crie Seu Filho Para Ser Rico",
+            summary: [
+            "Introdução: Por Que Este Livro É Diferente",
+
+            "Parte 1: O Alicerce (Começa Com Você)",
+            "Capítulo 1: O Espelho – Qual É A Sua Relação Com O Dinheiro?",
+            "Capítulo 2: Definindo 'Riqueza' Em Família",
+
+            "Parte 2: Os 4 Pilares Da Mentalidade Próspera (O Que Ensinar)",
+            "Capítulo 3: Pilar 1 – O Valor (De Onde O Dinheiro Vem?)",
+            "Capítulo 4: Pilar 2 – A Escolha (O Poder De Poupar E O Custo De Oportunidade)",
+            "Capítulo 5: Pilar 3 – O Crescimento (Fazendo O Dinheiro Trabalhar)",
+            "Capítulo 6: Pilar 4 – A Generosidade (O Fluxo Do Dinheiro)",
+
+            "Parte 3: O Manual Prático (Como Ensinar)",
+            "Capítulo 7: A Ferramenta Mestra – A Mesada Educativa",
+            "Capítulo 8: O Método Dos Potes (A Ferramenta Visual Da Mentalidade)",
+            "Capítulo 9: Conversas Que Constroem (O Guia Por Idade)",
+
+            "Parte 4: Tópicos Avançados (Preparando Para O Mundo Real)",
+            "Capítulo 10: O Primeiro Empreendimento (Seu Filho 'Gerador De Valor')",
+            "Capítulo 11: O Primeiro Investimento (Tirando O Dinheiro Do Pote)",
+            "Capítulo 12: Blindando Contra Erros (O Que Fazer Quando Eles Falharem)",
+
+            "Conclusão: Seu Legado (O Ciclo Da Riqueza)"
+            ]
+
+    }
+    ];
+
+
+    // --- LÓGICA DO MODAL ---
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalBackdrop = document.getElementById('modal-backdrop');
+        const modalPanel = document.getElementById('modal-panel');
+        const modalTitle = document.getElementById('modal-title');
+        const modalList = document.getElementById('modal-list');
+        const closeBtn = document.getElementById('btn-close-modal');
+
+        // 1. Selecionar todas as imagens de capa dentro da grid
+        // Assumindo que a estrutura é: .grid -> .bg-white -> div com img
+        const bookCards = document.querySelectorAll('.grid > div');
+
+        bookCards.forEach((card, index) => {
+            const imgContainer = card.querySelector('div:first-child'); // Onde está a imagem
+            
+            if(imgContainer && ebooksData[index]) {
+                // Adiciona cursor pointer para indicar clique
+                imgContainer.style.cursor = 'pointer';
+                imgContainer.title = "Clique para ver o sumário";
+                
+                // Adiciona evento de clique
+                imgContainer.addEventListener('click', () => {
+                    abrirModal(index);
+                });
+            }
+        });
+
+        function abrirModal(index) {
+            const data = ebooksData[index];
+            if(!data) return;
+
+            // Preencher Título
+            modalTitle.innerText = data.title;
+
+            // Preencher Lista (Limpar e Criar)
+            modalList.innerHTML = '';
+            data.summary.forEach(item => {
+                const li = document.createElement('li');
+                li.className = "flex items-start";
+                li.innerHTML = `<span class="text-green-500 mr-2 font-bold">•</span> <span>${item}</span>`;
+                modalList.appendChild(li);
+            });
+
+            // Mostrar Modal (Animação)
+            modalOverlay.classList.remove('hidden');
+            
+            // Pequeno delay para permitir a transição CSS
+            setTimeout(() => {
+                modalBackdrop.classList.remove('opacity-0');
+                modalPanel.classList.remove('translate-x-full');
+            }, 10);
+        }
+
+        function fecharModal() {
+            // Animação de saída
+            modalBackdrop.classList.add('opacity-0');
+            modalPanel.classList.add('translate-x-full');
+
+            // Esperar a animação terminar para esconder o HTML
+            setTimeout(() => {
+                modalOverlay.classList.add('hidden');
+            }, 300); // 300ms combina com o duration-300 do Tailwind
+        }
+
+        // Eventos de Fechamento
+        closeBtn.addEventListener('click', fecharModal);
+        modalBackdrop.addEventListener('click', fecharModal);
+        
+        // Fechar com ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modalOverlay.classList.contains('hidden')) {
+                fecharModal();
+            }
+        });
+    });
+</script>
+</body>
+</html>
